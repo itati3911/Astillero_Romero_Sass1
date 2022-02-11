@@ -1,0 +1,178 @@
+
+/**********************
+    RESPONSIVE GENERAL
+ **********************/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 576px) {
+  /* Styles */
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  /* Styles */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  /* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+  /* Styles */
+}
+ 
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+  /* Styles */
+}
+ 
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
+  /* Styles */
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+@media screen and (max-width: 576px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .fa{
+    margin-right:10px;
+    margin-left:10px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .texto-encima{
+  position:absolute;
+  top:250px;
+  right:30px;
+  left:40px;
+}
+}
+
+/*****MODELOS****/
+
+
+  @media screen and (min-width: 1024px){
+    .modelos{
+      height:300px;
+    }
+  }
+
+  @media screen and (min-width: 1400px){
+    .modelos{
+      height:450px;
+    }
+  }
+
+  @media screen and (min-width: 1800px){
+    .modelos{
+      height:550px;
+    }
+  }
+
+  /*PASAR A DOS COLUMNAS */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .modelos{
+        height:700px;
+    }
+  }
+  
+  /* PASAR A 1 COLUMNA */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .modelos{
+        height:1750px;
+    }
+  }
+
+
+
+/*TIENDA*/
+
+@media screen and (min-width: 1024px){
+  .imgTienda{
+    height:700px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .imgTienda{
+    height:550px;
+  }
+}
+
+@media screen and (min-width: 1800px){
+  .imgTienda{
+    height:550px;
+  }
+}
+
+/*PASAR A DOS COLUMNAS 
+@media screen and (max-width: 800px) {
+  .col {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .imgTienda{
+      height:700px;
+  }
+}*/
+
+/* PASAR A 1 COLUMNA */
+@media screen and (max-width: 768px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .imgTienda{
+      height:1750px;
+  }
+}

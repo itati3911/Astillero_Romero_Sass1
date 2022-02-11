@@ -1,0 +1,99 @@
+//VARIABLES//
+
+$gris:#333; 
+$celeste:#9FB0BF;
+
+
+header {
+    background-color: $gris; }
+
+.main {
+    color: white;
+    background-color: $gris; }
+
+.modelos {
+    color: white;
+    background-color:#0F2940; }
+
+.texto{
+    background-color:$celeste;
+}
+
+footer {
+    color: white;
+    background-color:$gris; }
+
+.texto-encima{
+    color:black;
+}
+button{
+    border-color: black;
+    background-color: grey;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.topnav {
+    background-color: $gris;
+}
+
+.topnav a {
+    color: #f2f2f2;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: $celeste;
+    color: white;
+}
+
+
+/*NOSOTROS*/
+
+.nosotros{
+    background-color: $celeste;
+}
+
+/*TIENDA*/
+
+.imgTienda{
+    background-color: $celeste;
+}
+
+
+/*CONTACTO*/
+
+.contacto{
+    background-color: $celeste;
+}
+
+/*REDES*/
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
